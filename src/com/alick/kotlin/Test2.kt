@@ -17,4 +17,11 @@ fun main(args: Array<String>) {
     println(v1)
     println(v2)
 
+
+    println(3 in v1)
+    println(v1.contains(3))
+
+    for (v in v1){
+        print("$v,")
+    }
 }
