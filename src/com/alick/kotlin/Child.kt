@@ -6,6 +6,6 @@ package com.alick.kotlin
  * 日期: 2019/4/6
  * 备注:
  */
-class Child : Parent() {
+open class Child : Parent() {
 
 }
